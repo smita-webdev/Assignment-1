@@ -36,9 +36,9 @@ let questionsData =[
       a:"a"
       
 },{
-      q:chalk.rgb(255, 136, 0)(`In which city did I visit first in my childhood ?
-      a:Delhi
-      b:Gujrat\n`),
+      q:chalk.rgb(255, 136, 0)(`My fav cuisine?
+      a:Mexcican
+      b:Italian\n`),
       a:"b"
       
 }
@@ -70,7 +70,7 @@ function play(question,answer){
     score++;
   }else{
     console.log(chalk.bgMagenta("You are wrong!"));
-     console.log(" ");
+    console.log(" ");
     score--;
   }
   
@@ -85,7 +85,7 @@ log(chalk.red("Thank you!!Game Over!!"));
 log(" ");
 log(chalk.rgb(255, 136, 0).bold("You Score:"+" "+score));
 log();
-log(chalk.red("Do you want to know my best friend ??"));
+log(chalk.red("Do you want to know my best friend based on this game ??"));
 log();
 
 //function to find the hightestScorer
