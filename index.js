@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const log = console.log;
 
 //Display Game Name
-log(chalk.bgYellowBright.bold("How much do you know me!!"));
+log(chalk.bgYellowBright.bold("How well do you know me!!"));
 log(" ");
 
 //Read User Info
